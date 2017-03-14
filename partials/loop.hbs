@@ -8,7 +8,9 @@
 <article class="{{post_class}}">
     <header class="post-header">
         {{#if image}}
-          <img class="post-thumb" src="{{image}}" alt="{{title}}" />
+            <a href="{{url}}">
+                <img class="post-thumb" src="{{image}}" alt="{{title}}" />
+            </a>
         {{/if}}
 
         <h2 class="post-title"><a href="{{url}}">{{title}}</a></h2>
