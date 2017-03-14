@@ -1058,6 +1058,10 @@ body.page-template .post-title {
     border-radius: 100%;
 }
 
+.post-thumb {
+    max-width: 100%;
+}
+
 .post-meta a {
     color: #9EABB3;
     text-decoration: none;

@@ -7,6 +7,10 @@
 {{#foreach posts}}
 <article class="{{post_class}}">
     <header class="post-header">
+        {{#if image}}
+          <img class="post-thumb" src="{{image}}" alt="{{title}}" />
+        {{/if}}
+
         <h2 class="post-title"><a href="{{url}}">{{title}}</a></h2>
     </header>
     <section class="post-excerpt">
