@@ -2,7 +2,7 @@
     "name": "dracky",
     "description": "The theme for Peaceful Respite, based on Casper.",
     "demo": "http://www.peacefulrespite.com",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "engines": {
         "ghost": ">=0.9.0 <1.0.0"
     },
