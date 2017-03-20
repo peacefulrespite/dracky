@@ -967,6 +967,8 @@ body.nav-opened .nav {
     min-height: 160px;
     max-height: 40vh;
     background: #ebf8fe;
+    /* Background pattern from Subtle Patterns */
+    background-image: url('/assets/sayagata.png');
 }
 
 .no-cover .page-title {
